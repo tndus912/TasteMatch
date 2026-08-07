@@ -1,6 +1,6 @@
 const data = [
   {
-    name: '따끈한 김치찌개',
+    name: '김치찌개',
     type: 'korean',
     weather: ['cold', 'rainy', 'snow'],
     mood: ['stressed', 'tired'],
@@ -16,13 +16,13 @@ const data = [
     weather: ['clear', 'cool'],
     mood: ['happy', 'relaxed'],
     budget: '10k_30k',
-    price: 14000,
+    price: 11000,
     desc: '달콤한 불고기를 밥과 함께',
     reason: '포만감 있는 한 끼로 기분을 끌어올립니다.',
     image: './images/bulgogi-bowl.jpg'
   },
   {
-    name: '치즈 폭탄 피자',
+    name: '치즈 피자',
     type: 'western',
     weather: ['clear', 'hot'],
     mood: ['happy'],
@@ -33,12 +33,12 @@ const data = [
     image: './images/cheese-pizza.jpg'
   },
   {
-    name: '시원한 냉면',
+    name: '냉면',
     type: 'korean',
     weather: ['hot', 'clear'],
     mood: ['tired', 'relaxed'],
-    budget: 'under_10k',
-    price: 8500,
+    budget: '10k_30k',
+    price: 11000,
     desc: '더운 날 시원하게 즐기는 면요리',
     reason: '더위를 식히며 가볍게 먹기 좋습니다.',
     image: './images/naengmyeon.jpg'
@@ -59,8 +59,8 @@ const data = [
     type: 'western',
     weather: ['clear', 'cool'],
     mood: ['happy'],
-    budget: '10k_30k',
-    price: 13000,
+    budget: 'under_10k',
+    price: 8500,
     desc: '바삭한 설탕층과 부드러운 크림',
     reason: '작은 사치로 기분을 특별하게 만들어줍니다.',
     image: './images/creme-brulee.jpg'
@@ -77,7 +77,7 @@ const data = [
     image: './images/bibimbap.jpg'
   },
   {
-    name: '가벼운 샐러드',
+    name: '샐러드',
     type: 'western',
     weather: ['hot', 'clear', 'cool'],
     mood: ['tired', 'relaxed'],
@@ -93,7 +93,7 @@ const data = [
     weather: ['cold', 'rainy'],
     mood: ['tired', 'stressed'],
     budget: '10k_30k',
-    price: 15000,
+    price: 11000,
     desc: '해산물과 매콤한 국물의 중화요리',
     reason: '진한 국물이 기운을 돋아줍니다.',
     image: './images/jjamppong.jpg'
@@ -159,7 +159,7 @@ const data = [
     weather: ['cold', 'rainy'],
     mood: ['tired', 'stressed'],
     budget: '10k_30k',
-    price: 14000,
+    price: 11000,
     desc: '진한 국물의 일본식 면요리',
     reason: '진한 국물이 피로 회복에 도움됩니다.',
     image: './images/ramen.jpg'
@@ -170,7 +170,7 @@ const data = [
     weather: ['clear', 'cold'],
     mood: ['happy', 'stressed'],
     budget: '10k_30k',
-    price: 18000,
+    price: 13000,
     desc: '매콤달콤 철판 요리',
     reason: '움직이며 나눠먹기 좋아 활력을 줍니다.',
     image: './images/dak-galbi.jpg'
@@ -203,7 +203,7 @@ const data = [
     weather: ['clear', 'hot'],
     mood: ['happy', 'tired'],
     budget: '10k_30k',
-    price: 12000,
+    price: 10500,
     desc: '손쉽게 먹는 든든한 한 끼',
     reason: '간편하게 기분 전환하기 좋습니다.',
     image: './images/burger-set.jpg'
@@ -214,7 +214,7 @@ const data = [
     weather: ['clear', 'hot', 'cloudy', 'cool', 'rainy', 'snow', 'cold'],
     mood: ['relaxed', 'tired'],
     budget: 'under_10k',
-    price: 6000,
+    price: 5500,
     desc: '간단하게 먹는 김밥',
     reason: '간단한 외출이나 피크닉에 적합합니다.',
     image: './images/kimbap.jpg'
@@ -225,18 +225,18 @@ const data = [
     weather: ['cold', 'rainy'],
     mood: ['stressed', 'happy'],
     budget: '10k_30k',
-    price: 14000,
+    price: 11000,
     desc: '풍성한 재료의 얼큰한 찌개',
     reason: '여럿이 나눠먹기 좋아 기분을 북돋아줍니다.',
     image: './images/budae-jjigae.jpg'
   },
   {
-    name: '덮밥(가츠동)',
+    name: '가츠동',
     type: 'japanese',
     weather: ['clear', 'cool'],
     mood: ['happy', 'tired'],
     budget: '10k_30k',
-    price: 15000,
+    price: 11000,
     desc: '바삭한 돈가스와 소스가 어우러진 덮밥',
     reason: '간편하지만 만족스러운 한 끼입니다.',
     image: './images/katsudon.jpg'
@@ -258,7 +258,7 @@ const data = [
     weather: ['clear', 'cool'],
     mood: ['relaxed', 'happy'],
     budget: '10k_30k',
-    price: 15000,
+    price: 13000,
     desc: '상큼한 토마토 소스의 파스타',
     reason: '가벼운 외식으로 적합합니다.',
     image: './images/tomato-pasta.jpg'
@@ -269,7 +269,7 @@ const data = [
     weather: ['cold', 'snow'],
     mood: ['tired', 'relaxed'],
     budget: 'under_10k',
-    price: 8000,
+    price: 9000,
     desc: '부드럽고 달콤한 죽',
     reason: '속을 달래고 편안하게 쉬고 싶을 때 좋아요.',
     image: './images/hobakjuk.jpg'
