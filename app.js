@@ -295,6 +295,8 @@ const resultMessage = document.getElementById('result-message');
 const rerollBtn = document.getElementById('reroll-btn');
 const homeBtn = document.getElementById('home-btn');
 let lastRecommendedIndex = null;
+let seenRecommendationsByKey = {};
+let currentPreferenceKey = '';
 
 const typeLabels = {
   korean: '한식',
